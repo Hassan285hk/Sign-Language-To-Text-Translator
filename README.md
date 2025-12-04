@@ -14,6 +14,7 @@ High Accuracy: Achieved 100% accuracy on the independent test set after training
 
 Modular Architecture: Code is organized into dedicated modules (preprocess.py, model.py, train.py, realtime.py) for clean development and maintenance.
 
+
 🛠️ **Technology Stack**
 
 **Category**       **Tools/Libraries**             **Purpose** 
@@ -32,25 +33,25 @@ The project follows a standard machine learning structure:
 
 **DIP PROJECT/Sign_language_translator**
 
-├── data/
+    ├── data/
 
-│   ├── Train/         # Raw images organized into subfolders (A, B, C, ...)
+        │   ├── Train/         # Raw images organized into subfolders (A, B, C, ...)
 
-│   ├── test/          # Images reserved for final model evaluation
+        │   ├── test/          # Images reserved for final model evaluation
 
-│   └── processed_data.pickle  # NumPy array of normalized data and labels
+        │   └── processed_data.pickle  # NumPy array of normalized data and labels
 
-├── models/
+    ├── models/
 
-│   ├── sign_language_translator_best.keras # The trained CNN model weights
+        │   ├── sign_language_translator_best.keras # The trained CNN model weights
 
-│   └── label_binarizer.pkl  # Stores the mapping of index-to-letter (0->A, 1->B, etc.)
+        │   └── label_binarizer.pkl  # Stores the mapping of index-to-letter (0->A, 1->B, etc.)
 
-├── notebooks/         # (Optional) For EDA or initial model exploration
+        ├── notebooks/         # (Optional) For EDA or initial model exploration
 
-├── outputs/           # Placeholder for reports, plots, or history files
+        ├── outputs/           # Placeholder for reports, plots, or history files
 
-└── src/               # Source code for the application
+    └── src/               # Source code for the application
 
     ├── preprocess.py  # Data loading, DIP pipeline, normalization
     
