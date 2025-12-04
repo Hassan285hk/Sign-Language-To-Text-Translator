@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage/
+.coverage
+*.cover
+.hypothesis/
+.nox/
+
+# Editors/IDE
+# --- VS Code ---
+.vscode/
+# --- Pycharm / IntelliJ ---
+.idea/
+# --- Sublime Text ---
+*.sublime-project
+*.sublime-workspace
+# --- Vim ---
+*.swp
+*.bak
+*.swo
+# --- Eclipse ---
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.trl
+
+# Misc project files
+instance/
+.webassets-cache
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+# For me, it's usually inside "src/"
+# but it depends on your structure
+# *.spec
+# build/
+# dist/
+
+# Sensitive / User-specific files
+# Credentials and configuration files (adjust as needed)
+*.key
+*.pem
+*.pfx
+*.jks
+# Database files
+*.sqlite
+*.db
+# Log files
+*.log
+# Configuration files (if they contain secrets)
+# settings.py  <-- Only uncomment if it contains credentials and you use a separate, version-controlled config file.
+
+# Operating System Files
+.DS_Store
+Thumbs.db
