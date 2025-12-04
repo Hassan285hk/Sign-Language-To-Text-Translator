@@ -1,4 +1,5 @@
 🤟  *Sign Language (ASL) to Text Translator*
+
 🌟 **Project Overview**
 This repository hosts a real-time sign language recognition system built using Convolutional Neural Networks (CNNs) and OpenCV for Digital Image Processing (DIP). The system translates static American Sign Language (ASL) hand gestures (A-Z, plus one digit/control sign) captured via a webcam into text, demonstrating a complete end-to-end Machine Learning pipeline from data preparation to real-time deployment.
 
