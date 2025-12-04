@@ -17,15 +17,15 @@ Modular Architecture: Code is organized into dedicated modules (preprocess.py, m
 
 🛠️ **Technology Stack**
 
-**Category**       **Tools/Libraries**             **Purpose** 
+**Category**               **Tools/Libraries**                        **Purpose** 
 
-Deep Learning       TensorFlow / Keras              Model definition, training, and deployment.
+Deep Learning                  TensorFlow / Keras                      Model definition, training, and deployment.
 
-Image Processing    OpenCV (cv2)                    Real-time video capture, Grayscale conversion, Thresholding, and Contour detection.
+Image Processing               OpenCV (cv2)                            Real-time video capture, Grayscale conversion, Thresholding, and Contour detection.
 
-Data Handling       NumPy, Pandas, Scikit-learn     Data normalization, array manipulation, data splitting, and performance evaluation.
+Data Handling                  NumPy, Pandas, Scikit-learn             Data normalization, array manipulation, data splitting, and performance evaluation.
 
-Development         Python 3.x                      Core language for the entire project pipeline.
+Development                    Python 3.x                              Core language for the entire project pipeline.
 
 📂 **Repository Structure**
 
